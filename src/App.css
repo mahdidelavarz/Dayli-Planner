@@ -1,0 +1,10 @@
+@import "./fonts/fonts.css";
+#root {
+  margin: 0 auto;
+  text-align: center;
+  direction: rtl;
+  font-family: 'Tanha';
+}
+.header{
+  font-family: "Elizabeth";
+}
