@@ -2,7 +2,7 @@ import { Icon } from "@iconify/react/dist/iconify.js";
 
 function SportsPlan() {
   return (
-    <div className="col-span-6 row-span-4 bg-gray-200 rounded-md opacity-70 flex flex-col p-4 items-start relative">
+    <div className="col-span-6 row-span-5 bg-gray-200 rounded-md opacity-70 flex flex-col p-4 items-start relative">
       <div className="w-full flex gap-4 items-center justify-between">
         <h2>برنامه ی ورزشی :</h2>
         <div className="flex gap-4">

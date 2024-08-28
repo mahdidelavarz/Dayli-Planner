@@ -1,12 +1,12 @@
 import { Icon } from "@iconify/react/dist/iconify.js";
 
-function ReadedBooks() {
+function DoneLessons() {
   return (
-    <div className="col-span-4 row-span-4 gap-2 bg-gray-200 rounded-md opacity-70 flex flex-col items-start p-4">
-        <h2 className="text-sm">کتاب های امروز و مدت مطالعه :</h2>
-      <div className="flex gap-4 items-center">
+    <div className="col-span-6 row-span-4 bg-gray-200 rounded-md opacity-70 flex flex-col items-start p-4 ">
+      <div className="flex gap-2 items-center">
+        <h2>درس ها و تکالیف امروز :</h2>
         <input
-          className="min-w-[18rem] h-10 shadow-md shadow-gray-700 rounded-md bg-gray-300 flex justify-center items-center text-fuchsia-950 outline-none px-4"
+          className="min-w-[23rem] h-10 shadow-md shadow-gray-700 rounded-md bg-gray-300 flex justify-center items-center text-fuchsia-950 outline-none px-4"
           placeholder="I will not stop ..."
         />
         <span className="w-24 h-10 shadow-md shadow-gray-700 rounded-md bg-gray-300 flex justify-center items-center text-fuchsia-950 ">
@@ -20,4 +20,4 @@ function ReadedBooks() {
   );
 }
 
-export default ReadedBooks;
+export default DoneLessons;

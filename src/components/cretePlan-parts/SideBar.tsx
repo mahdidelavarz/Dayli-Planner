@@ -3,7 +3,7 @@ import { Checkbox } from "@nextui-org/react";
 
 function SideBar() {
   return (
-    <div className="col-span-2 row-span-12 bg-gray-200 rounded-md opacity-80 flex flex-col gap-6 p-2">
+    <div className="col-span-2 row-span-21 bg-gray-200 rounded-md opacity-80 flex flex-col gap-6 p-2">
       <div className="w-full h-auto  flex gap-2 items-center">
         <Icon icon="streamline-emojis:sun-with-face" className="text-3xl" />
         <span className="text-sm">ساعت بیداری :</span>

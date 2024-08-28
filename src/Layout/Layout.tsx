@@ -6,7 +6,7 @@ type Provider = {
 };
 const Layout: React.FC<Provider> = ({ children }) => {
   return (
-    <div>
+    
       <div className="w-full h-auto relative">
         <img
           src="/images/galaxy-3608029_1920.jpg"
@@ -20,7 +20,7 @@ const Layout: React.FC<Provider> = ({ children }) => {
           <div className="col-span-10 row-span-10 px-10 pb-4">{children}</div>
         </div>
       </div>
-    </div>
+    
   );
 };
 
